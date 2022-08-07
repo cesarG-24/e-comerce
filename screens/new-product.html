@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title> New Product</title>
+    <link href="../assets/css/normalize.css" rel="stylesheet" />
+    <link href="../assets/css/reset.css" rel="stylesheet" />
+    <link href="../assets/css/variables.css" rel="stylesheet" />
+    <link href="../assets/css/header.css" rel="stylesheet">
+    <link href="../assets/css/footer.css" rel="stylesheet">
+    <link href="../assets/css/formStyle.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__items">
+            <a class="header__logoHome" href = "../index.html">
+                <img class="header__logoHome-image" src = "../assets/img/logo.svg" alt = "logo">
+            </a>
+            <div class="header__search">
+                <input class="header__search-input" id="search__items" type = "text" placeholder=" Qué desea buscar ?">
+                <button class="header__search-button"><img class="header__search-icon" src ="../assets/img/header/search.svg" alt = ""></button>
+            </div>
+        </div>
+
+        <a class="header__login" href="adminProducts.html">
+            <button class="header__login-button">Menú Administrador</button>
+        </a>
+    </header>
+    <main>
+        <section class="new__product">
+            <form class="form_container" data-form>
+                <h2 class="new__product-title">Agregar nuevo producto</h2>
+                <input type="text" class=" new__product-input" placeholder="url imagen" required data-url>
+                <input type="text" class=" new__product-input" placeholder="Nombre del producto" required data-nombre>
+                <input type="text" class=" new__product-input" placeholder="Precio producto" required data-precio>
+                <input type="text" class=" new__product-input" placeholder="Descripcion del producto" required data-descripcion>
+<!--                  -->
+<!--                 <div class="new__product-input"> -->
+<!--                     <label for="seccion">Elige una seccion: </label> -->
+<!--                     <select class="form_select" name="seccion" id="seccion" style=" margin-right: 60px;" size="1" required data-seccion> -->
+<!--                         <option value="" disabled selected> Selecciona la seccion </option> -->
+<!--                         <option value="Male" data-starWar>StarWars</option> -->
+<!--                         <option value="Female" data-consolas>Consolas</option> -->
+<!--                         <option value="Female" data-diversos>Diversos</option> -->
+<!--                     </select> &lt;!&ndash;agregar un string indicando que debe seleccionarse una seccion&ndash;&gt; -->
+<!--                 </div> -->
+
+                <button class="new__product-button">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="contacto__container">
+            <div class="contacto__logo">
+                <a href = "#">
+                    <img class="contacto__logoFooter" src = "../assets/img/logo.svg" alt = "logo">
+                </a>
+            </div>
+            <div class="contacto__info">
+                <ul>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Quienes somos</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Política de privacidad</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Programa de fidelidad</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Nuestras Tiendas</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Quiero ser franquiciado</a></li>
+                    <li class="contacto__info-li"><a class="contacto__info-text" href = "#">Anúncie aquí</a></li>
+                </ul>
+            </div>
+
+            <form class="contacto__contactar" id="form__data">
+                <h2 class="contacto__contactar-title">Hable con nosotros</h2>
+
+                <label class="contacto__contactar-nombre contacto__textBox">
+                    Nombre
+                    <input class="contacto__contactar-nombreInput" id="contact__nombre" type = "text" name="nombre"
+                           placeholder="Pedro Santana" required>
+                </label>
+
+                <label class="contacto__mensaje contacto__textBox">
+                    Escribe tu mensaje
+                    <textarea class="contacto__mensaje-text" id="contact__mensaje" required></textarea>
+                </label>
+
+                <input type="submit" class="contacto__button" id="contact__boton" value="Enviar mensaje">
+            </form>
+        </section>
+        <div class="info__dev">
+            <p class="info__dev-text">Desarrollado por César Guerrero </p>
+            <p class="info__dev-text">2022</p>
+        </div>
+    </footer>
+        <script type="module" src="../controllers/crearProductoController.js"></script>
+        <script src="../script/form-validation.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

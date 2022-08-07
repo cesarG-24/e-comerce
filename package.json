@@ -1,0 +1,24 @@
+{
+  "name": "e-comerce_alura",
+  "version": "1.0.0",
+  "description": "e-comerce_Alura",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarG-24/e-comerce_Alura.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "César Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarG-24/e-comerce_Alura/issues"
+  },
+  "homepage": "https://github.com/cesarG-24/e-comerce_Alura#readme"
+}

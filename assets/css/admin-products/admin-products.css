@@ -1,0 +1,28 @@
+.admin-products{
+    background-color: var(--color-fondo-grisclaro);
+}
+
+.agregar-producto{
+    padding: 16px;
+    background-color: var(--color_fondo-o-letra_botones-2);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+.product__card--code{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fuente_principal);
+    color: var(--color_letras-H2);
+    margin: 8px auto;
+}
+
+.product__card-icon{
+    margin: 6px;
+}
+
+.product__card-edit{
+    position: absolute;
+}
