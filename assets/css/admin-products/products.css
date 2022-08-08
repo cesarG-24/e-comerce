@@ -39,13 +39,13 @@
 .product__list{
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between ;*/
+    gap: 20px;
     flex-wrap: wrap;
 }
 
-.product__card{
+.product__card {
     margin: 5px;
-    gap: 5px;
+    gap: 2px;
     box-shadow: 0px 0px 3px 2px var(--color_placeholder);
     border-radius: 10px;
     padding: 15px;
@@ -93,7 +93,9 @@
     line-height: 19px;
     margin: 8px auto;
 }
-.product__card-boton{
+.product__card-boton {
+    display: flex;
+    justify-content: center;
     border: none;
     background-color: transparent;
     color: var(--color_fondo-o-letra_botones-2);
@@ -103,8 +105,13 @@
     width: 100%;
     cursor: pointer;
 }
-.product__card-boton:hover{
+
+.product__card-boton:hover {
     text-decoration: underline;
+}
+
+.hidden {
+    display: none !important;
 }
 
 

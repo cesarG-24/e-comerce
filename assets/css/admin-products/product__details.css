@@ -45,6 +45,9 @@
     margin:0 13px;
 }
 
+.hidden {
+    display: none !important;
+}
 
 
 @media screen and (max-width: 360px){

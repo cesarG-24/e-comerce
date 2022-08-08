@@ -2,17 +2,15 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-windth initial-scale=1.0">
+    <!--     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet"> -->
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
     <title> Productos_Alura-Geek</title>
-    <link href="../assets/css/normalize.css" rel="stylesheet" />
-    <link href="../assets/css/reset.css" rel="stylesheet" />
-    <link href="../assets/css/variables.css" rel="stylesheet" />
-    <link href="../assets/css/header.css" rel="stylesheet">
-    <link href="../assets/css/home-page/products.css" rel="stylesheet">
-    <link href="../assets/css/footer.css" rel="stylesheet">
-    <link href="../assets/css/admin-products/admin-products.css" rel="stylesheet">
-
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/admin-products/admin-products.css" rel = "stylesheet">
 </head>
 <body>
     <header class="header__container">
@@ -29,221 +27,18 @@
     </header>
     <main>
         <section class="products admin-products">
-            <div class="product__container">
-                <div class="product__header">
-                    <h2 class="product__title">Todos los productos</h2>
-                    <a href="new-product.html" ><button class="agregar-producto">agregar producto</button></a>
+            <div class = "product__container">
+                <div class = "product__header">
+                    <h2 class = "product__title">Todos los productos</h2>
+                    <a href = "new-product.html">
+                        <button class = "agregar-producto">agregar producto</button>
+                    </a>
                 </div>
-
-                <div class="product__list">
-                    <div class="product__card">
-                       <div class="product__card-edit">
-                           <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                           <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                       </div>
-                        <img class="product__card--img" src = "../assets/img/productos/starwar_glass1.png" alt = "product imagen">
-                        <p class="product__card--title">Vaso de StarWar</p>
-                        <p class="product__card--price"> $ 60,00</p>
-                        <p class="product__card--code">#1111111</p>
+                <section class = "products" id = "starWars">
+                    <div class = "product__container">
+                        <div class = "product__list" data-productos></div>
                     </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/dark_vader-lego.png" alt = "">
-                        <p class="product__card--title">Darck Vader Lego</p>
-                        <p class="product__card--price"> $ 50,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/master_yoda.png" alt = "">
-                        <p class="product__card--title">Master Yoda</p>
-                        <p class="product__card--price">$ 50,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/soldier.png" alt = "">
-                        <p class="product__card--title">Stormtrooper</p>
-                        <p class="product__card--price"> $ 30,55</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/baby_yoda.png" alt = "">
-                        <p class="product__card--title">Baby Yoda</p>
-                        <p class="product__card--price">$ 90,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/dark_bader.png" alt = "">
-                        <p class="product__card--title">Dark Vader</p>
-                        <p class="product__card--price">$ 120,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="products admin-products">
-            <div class="product__container">
-                 <div class="product__list">
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/consolas/control1.png" alt = "product imagen">
-                        <p class="product__card--title">Control Xbox </p>
-                        <p class="product__card--price"> $ 60,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/consolas/ps5_blue.png" alt = "">
-                        <p class="product__card--title">Ps5 + Control</p>
-                        <p class="product__card--price"> $ 1,000,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/consolas/nintendo1.png " alt = "">
-                        <p class="product__card--title">Nintendo</p>
-                        <p class="product__card--price">$ 200,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/consolas/control_nintendo-switch.png" alt = "">
-                        <p class="product__card--title">Controles N. Switch</p>
-                        <p class="product__card--price"> $ 30,55</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/consolas/xbox.png" alt = "">
-                        <p class="product__card--title">Xbox X Series</p>
-                        <p class="product__card--price">$ 700,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/dark_bader.png" alt = "">
-                        <p class="product__card--title">Dark Vader</p>
-                        <p class="product__card--price">$ 120,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="products admin-products">
-            <div class="product__container">
-                <div class="product__list">
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/tshirt1.png" alt = "product imagen">
-                        <p class="product__card--title"> Camisa Atani </p>
-                        <p class="product__card--price"> $ 60,00</p>
-                        <p class="product__card--code">#1111111</p>
-                </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/tshirt_nintendo.png" alt = "">
-                        <p class="product__card--title">Camisa SNES</p>
-                        <p class="product__card--price"> $ 60,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/sony.png" alt = "">
-                        <p class="product__card--title"> Muñeco de Sony</p>
-                        <p class="product__card--price">$ 40,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/radio.png" alt = "">
-                        <p class="product__card--title">Radio </p>
-                        <p class="product__card--price"> $ 20,55</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/control%20y%20consola2.png" alt = "">
-                        <p class="product__card--title">Oculus</p>
-                        <p class="product__card--price">$ 700,00</p>
-                        <p class="product__card--code">#1111111</p>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <div class="product__card-edit">
-                            <img class="product__card-icon" src = "../assets/img/icons/delete.svg" alt = "icos">
-                            <img class="product__card-icon" src = "../assets/img/icons/edit.svg" alt = "icons">
-                        </div>
-                        <img class="product__card--img" src = "../assets/img/productos/diversos/traje%20pikashu.png" alt = "">
-                        <p class="product__card--title">Traje de pikashu</p>
-                        <p class="product__card--price">$ 120,00</p>
-                        <p class="product__card--code">#1111111</p>
-                     </div>
-                </div>
+                </section>
             </div>
         </section>
     </main>
@@ -286,9 +81,8 @@
             <p class="info__dev-text">2022</p>
         </div>
     </footer>
-
     <script src="../script/form-validation.js"></script>
+    <script src = "../controllers/productos-controller.js" type = "module"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 </body>
 </html>

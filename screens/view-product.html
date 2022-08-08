@@ -5,18 +5,13 @@
     <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
           rel = "stylesheet">
     <meta content = "width=device-width initial-scale=1.0" name = "viewport">
-    <title>Lista de usuarios</title>
+    <title> Edit Product</title>
     <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
     <link href = "../assets/css/reset.css" rel = "stylesheet"/>
     <link href = "../assets/css/variables.css" rel = "stylesheet"/>
     <link href = "../assets/css/header.css" rel = "stylesheet">
     <link href = "../assets/css/footer.css" rel = "stylesheet">
-    <link href = "../assets/css/componentes/header.css" rel = "stylesheet"/>
-    <link href = "../assets/css/lista_cliente.css" rel = "stylesheet"/>
-    <link href = "../assets/css/componentes/table.css" rel = "stylesheet"/>
-    <link href = "../assets/css/componentes/button.css" rel = "stylesheet"/>
-    <link href = "../assets/css/componentes/modal.css" rel = "stylesheet"/>
-    <link href = "../assets/css/_variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/formStyle.css" rel = "stylesheet">
 </head>
 <body>
 <header class = "header__container">
@@ -35,29 +30,34 @@
         </div>
     </div>
 
-    <a class = "header__login-button"  href = "adminProducts.html">
-      Menú Administrador
+    <a class = "header__login" href = "adminProducts.html">
+        <button class = "header__login-button">Menú Administrador</button>
     </a>
 </header>
+<main>
+    <section class = "new__product">
+        <form class = "form_container" data-form>
+            <h2 class = "new__product-title">Editar Producto</h2>
+            <input class = " new__product-input" data-url placeholder = "url imagen" required type = "text">
+            <input class = " new__product-input" data-nombre placeholder = "Nombre del producto" required type = "text">
+            <input class = " new__product-input" data-precio placeholder = "Precio producto" required type = "text">
+            <input class = " new__product-inputdes" data-descripcion placeholder = "Descripcion del producto" required
+                   type = "text">
+            <!--                  -->
+            <!--                 <div class="new__product-input"> -->
+            <!--                     <label for="seccion">Elige una seccion: </label> -->
+            <!--                     <select class="form_select" name="seccion" id="seccion" style=" margin-right: 60px;" size="1" required data-seccion> -->
+            <!--                         <option value="" disabled selected> Selecciona la seccion </option> -->
+            <!--                         <option value="Male" data-starWar>StarWars</option> -->
+            <!--                         <option value="Female" data-consolas>Consolas</option> -->
+            <!--                         <option value="Female" data-diversos>Diversos</option> -->
+            <!--                     </select> &lt;!&ndash;agregar un string indicando que debe seleccionarse una seccion&ndash;&gt; -->
+            <!--                 </div> -->
 
-
-<main class = "clientes-container">
-    <table class = "table">
-        <thead>
-        <tr>
-            <th class = "table__column--p">Nombre</th>
-            <th class = "table__column--g">Email</th>
-            <th class = "table__column--g">Password</th>
-            <th class = "table__column--m table__align--right">
-                <a class = "simple-button simple-button--add" href = "registrar.html">Nuevo usuario</a>
-            </th>
-        </tr>
-        </thead>
-        <tbody data-table></tbody>
-    </table>
+            <button class = "new__product-button">Enviar</button>
+        </form>
+    </section>
 </main>
-
-
 <footer>
     <section class = "contacto__container">
         <div class = "contacto__logo">
@@ -81,18 +81,16 @@
 
         <form class = "contacto__contactar" id = "form__data">
             <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
-
             <label class = "contacto__contactar-nombre contacto__textBox">
                 Nombre
                 <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
                        required type = "text">
             </label>
-
             <label class = "contacto__mensaje contacto__textBox">
-                Escribe tu mensaje
-                <textarea class = "contacto__mensaje-text" id = "contact__mensaje" required></textarea>
+                Escribe tu mensaje<textarea class = "contacto__mensaje-text"
+                                            id = "contact__mensaje"
+                                            required></textarea>
             </label>
-
             <input class = "contacto__button" id = "contact__boton" type = "submit" value = "Enviar mensaje">
         </form>
     </section>
@@ -101,7 +99,7 @@
         <p class = "info__dev-text">2022</p>
     </div>
 </footer>
-<script type = "module" src = "../controllers/usuarioController.js" ></script>
+<script src = "../controllers/editProducto.js" type = "module"></script>
 <script src = "../script/form-validation.js"></script>
 <script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

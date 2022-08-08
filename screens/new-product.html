@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "en" xmlns = "http://www.w3.org/1999/html">
 <head>
     <meta charset = "UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
@@ -23,9 +23,8 @@
                 <button class="header__search-button"><img class="header__search-icon" src ="../assets/img/header/search.svg" alt = ""></button>
             </div>
         </div>
-
-        <a class="header__login" href="adminProducts.html">
-            <button class="header__login-button">Menú Administrador</button>
+        <a class = "header__login-button"  href = "adminProducts.html">
+            Menú Administrador
         </a>
     </header>
     <main>
@@ -35,19 +34,15 @@
                 <input type="text" class=" new__product-input" placeholder="url imagen" required data-url>
                 <input type="text" class=" new__product-input" placeholder="Nombre del producto" required data-nombre>
                 <input type="text" class=" new__product-input" placeholder="Precio producto" required data-precio>
-                <input type="text" class=" new__product-input" placeholder="Descripcion del producto" required data-descripcion>
-<!--                  -->
-<!--                 <div class="new__product-input"> -->
-<!--                     <label for="seccion">Elige una seccion: </label> -->
-<!--                     <select class="form_select" name="seccion" id="seccion" style=" margin-right: 60px;" size="1" required data-seccion> -->
-<!--                         <option value="" disabled selected> Selecciona la seccion </option> -->
-<!--                         <option value="Male" data-starWar>StarWars</option> -->
-<!--                         <option value="Female" data-consolas>Consolas</option> -->
-<!--                         <option value="Female" data-diversos>Diversos</option> -->
-<!--                     </select> &lt;!&ndash;agregar un string indicando que debe seleccionarse una seccion&ndash;&gt; -->
-<!--                 </div> -->
-
-                <button class="new__product-button">Enviar mensaje</button>
+                <select class="form-selection"  required data-categoria multiple>
+                    <option value="" disabled selected> Selecciona la seccion </option>
+                    <option value="1" data-starWar>StarWars</option>
+                    <option value="2" data-consolas>Consolas</option>
+                    <option value="3" data-diversos>Diversos</option>
+                </select>
+                <textarea class=" new__product-input form-description" placeholder="Descripcion del producto" required
+                   data-descripcion></textarea>
+                <button class = "new__product-button" data-formBtn>Enviar</button>
             </form>
         </section>
     </main>
@@ -91,6 +86,10 @@
             <p class="info__dev-text">2022</p>
         </div>
     </footer>
+    <script crossorigin = "anonymous"
+            integrity = "sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+            referrerpolicy = "no-referrer"
+            src = "https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
         <script type="module" src="../controllers/crearProductoController.js"></script>
         <script src="../script/form-validation.js"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
