@@ -1,32 +1,28 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Cesar Guerrero",
-      "userName": "cesarg1",
-      "email": "cesar@gmail.com",
-      "password": "cesar123",
-      "role": "admin"
+      "name": "aasdffghjk",
+      "email": "ddima@dima.dima",
+      "password": "1234",
+      "id": "b2c8522e-51ff-4565-9b29-ee1dc20b4bc5"
     },
     {
-      "id": 2,
-      "name": "carlos",
-      "username": "carlos1",
-      "email": "carlos@gmail.com",
-      "password": "carlos123",
-      "role": "user"
-    },
-    {
-      "name": "dima",
-      "email": "dima@dima.dima",
-      "password": "dima",
-      "id": 3
+      "name": "sasha",
+      "email": "sasha@a.a",
+      "password": "sasha",
+      "id": "f5000949-d6d2-47c7-bbb4-86fb29531a5b"
     },
     {
       "name": "cesar",
+      "email": "cesar@cesar.co",
+      "password": "1234",
+      "id": "4a945099-3d53-4774-aeb7-ed0cb25949bc"
+    },
+    {
+      "name": "dima",
       "email": "ddima@dima.dima",
       "password": "123",
-      "id": 4
+      "id": "e3e34da0-b2c2-4d16-8722-bcd52ff27b91"
     }
   ],
   "categories": [
@@ -87,7 +83,7 @@
     {
       "imageUrl": "https://m.media-amazon.com/images/I/616MzNFe+8L._SL1500_.jpg",
       "name": "PlayStation 5",
-      "price": "$840.75",
+      "price": "$850.75",
       "categoria": "Consolas",
       "description": "es una consola de videojuegos de sobremesa desarrollada por la empresa Sony Interactive Entertainment. Fue anunciada en el año 2019 como la sucesora de la PlayStation 4, la PS5 se lanzó el 12 de noviembre de 2020 en Australia, Japón, Nueva Zelanda, América del Norte, Singapur y Corea del Sur, y en el resto de países el 19 de noviembre de 2020. La PlayStation 5 junto con la Xbox Series X|S de Microsoft, lanzada el mismo mes, son parte de la novena generación de consolas de videojuegos.\n\nLa plataforma se lanzó en dos variantes: un modelo base con una unidad de disco óptico compatible con Ultra HD Blu-ray y una edición digital que carece de esta unidad, que sirve como modelo de menor costo para quienes prefieren comprar videojuegos mediante descarga digital.\n\nLas principales características de hardware de la PlayStation 5 incluyen una unidad de estado sólido personalizada para transmisión de datos de alta velocidad para permitir mejoras significativas en el rendimiento del almacenamiento, una GPU AMD capaz de mostrar una resolución de 4K de hasta 120 cuadros por segundo, trazado de rayos acelerado por hardware para realismo, iluminación y reflejos y el motor Tempest que permite efectos de audio 3D acelerados por hardware. Otras características incluyen el controlador DualSense con retroalimentación háptica y compatibilidad con versiones anteriores de la mayoría de los videojuegos de PlayStation 4 y PlayStation VR.",
       "id": "0515aaa6-6324-49b9-99a9-ebc168160964"
@@ -107,6 +103,110 @@
       "categoria": "Diversos",
       "description": "Tecnología de audio\nControlador de alta excursión diseñado por Apple\nAmplificador exclusivo con alto rango dinámico\nCancelación Activa de Ruido\nModo Ambiente\nEcualización de presión mediante un sistema de ventilación\nAudio espacial con seguimiento dinámico del movimiento de la cabeza1\nEcualización Adaptativa\nSensores\nDos micrófonos con tecnología beamforming\nMicrófono orientado hacia adentro\nDos sensores ópticos\nAcelerómetro con detección de movimiento\nAcelerómetro con detección de voz\nSensor de fuerza\nChip\nChip H1 para audífonos\n\nControles\nPresiona una vez para reproducir, pausar o contestar una llamada\nPresiona dos veces para avanzar\nPresiona tres veces para retroceder\nMantén presionado para cambiar entre Cancelación Activa de Ruido y modo Ambiente",
       "id": "bf69cef6-8af8-44b7-8cdb-bfa30b8d1b5d"
+    },
+    {
+      "imageUrl": "https://i5.walmartimages.com/asr/d01ae56f-3ac2-4ad1-94ea-37bbfa992011.33292b347aecd4c9162b3381e4a53a01.jpeg",
+      "name": "XCBOX Control",
+      "price": "$69.99",
+      "categoria": "Consolas",
+      "description": "Custom control",
+      "id": "4174188c-b724-4b27-9951-2e21de3b5506"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/c2/40/3d/c2403d3185991993c6aa7532bd997ef6.jpg",
+      "name": "ART, The Mandalorian and Baby Yoda",
+      "price": "$80.99",
+      "categoria": "StarWars",
+      "description": "hermoso arte  donde se puede apreciar al mandaloriano, baby yoda y un  blurrg\n\nLos blurrg fueron una especie no inteligente, con dos patas y usada en tareas de carga por toda la galaxia. Los blurrgs fueron notablemente usados por la Resistencia Twi'lek y el Movimiento Ryloth Libre durante las Guerras Clon y la Era Imperial, y también fueron usados por el granjero de humedad Kuiil en Arvala-7.",
+      "id": "3eed7026-ee93-46ac-a9bf-745dd3747748"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/28/e6/27/28e627ab177f2599c2aefcd66f1f61f4.jpg",
+      "name": "Baby Yoda",
+      "price": "$54.00",
+      "categoria": "StarWars",
+      "description": "Muñeco con armadura: \nbaby yoda, listo para la batalla.\n\n",
+      "id": "cb730e61-97f8-4fe8-aabf-4c3db553cc0c"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/20/4c/e3/204ce3ce96655860c7464a181dd96ba0.jpg",
+      "name": "Sticker  starbucks",
+      "price": "$5.00",
+      "categoria": "StarWars",
+      "description": "sticker ",
+      "id": "23ba121e-1cb8-4d71-b6f3-9e6d52b20470"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/78/2d/85/782d8561488271658fc9bb2a0ccd04ea.jpg",
+      "name": "Nintendo Switch: Fortnite - Double Helix Bundle",
+      "price": "$275.00",
+      "categoria": "Consolas",
+      "description": "Nintendo Switch - Joy-Con azul neón y rojo neón\n1,000 V-bucks (moneda de Fortnite en el juego que puedes usar para comprar un Pase de batalla u otros artículos en el juego)\nConjunto de doble hélice, que consta de un traje de personaje único, Back Bling, Glider y Pickaxe",
+      "id": "89a365f2-00d2-465d-bbaf-a405aed6255f"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/44/56/8c/44568c4a3c14384d92d408a0189db673.jpg",
+      "name": " Insignia™ Joy-Con Charging Station ",
+      "price": "$33.00",
+      "categoria": "Consolas",
+      "description": "Insignia™ - Joy-Con Charging Station for Nintendo Switch - Black\nModel:NS-GNSJCCS18SKU:5894301",
+      "id": "529959de-570d-4fdf-b0ee-e13733b4852d"
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/00AAAOSwP~diAbs3/s-l500.jpg",
+      "name": "Gaming Headset LED Stereo Bass ",
+      "price": "$10.00",
+      "categoria": "Diversos",
+      "description": "Gaming Headset 3.5mm Mic LED Headphones Stereo Bass Surround For PC Xbox One PS4\n\nSpecification: \n\nSpeaker diameter: 40mm\nPlug: 3.5mm\nDriver Impedance: 32 ohm\nSensitivity: 102dB±3dB\nFrequency response: 20Hz-20KHz\nMicrophone diameter: 6.0 * 5.0mm\nMicrophone directivity: omnidirectional\nPlug: 3.5mm microphone and earphone plug + USB interface\nMicrophone sensitivity: -36±3dB\nCable length: about 2.2 meters\nLED working voltage: DC5V±5%\nWorking current: ≤100mA\nHeadphone weight: 12.8 Oz",
+      "id": "2a81d270-76a6-418c-b33f-a1b05136f831"
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/~QsAAOSwXlpgmN8k/s-l500.jpg",
+      "name": "Gaming Computer Mouse Pad ",
+      "price": "$12.00",
+      "categoria": "Selecciona la seccion",
+      "description": "Gaming Computer Mouse Pad World Map Mouse Mat Desk Mat Non-Slip Rubber B.AUJ J-\n\nCaracterísticas:\n1, bordes cosidos duraderos: esta alfombrilla de ratón tiene bordes delicados que pueden evitar el desgaste. Asegurar un uso prolongado sin deformación y desgomado.\n2, superficie lisa: la textura es más densa. El mouse se puede mover rápidamente y colocar con precisión para garantizar un control más suave del mouse. Perfecto para su computadora portátil, computadora y PC.,3, Base de goma antideslizante: el sombreado denso y la base de goma natural antideslizante pueden sujetar firmemente el escritorio. Material suave de primera calidad para su comodidad y control del mouse.,\n4, diseño lavable y evita la decoloración: esta alfombrilla de ratón está hecha de un gran efecto de bloqueo de color. Las manchas líquidas se pueden limpiar con agua para uso continuo. Y no se desvanecerá con la limpieza repetida.\nAmplia aplicabilidad: disponible para todo tipo de mouse, láser y óptico. Tamaño ideal para uso diario.\n\n\nPaquete que incluye: 1 ud.\n\nNota:\n1. Debido a la diferencia de luz, el color puede ser ligeramente diferente\n2. Permita diferencias de 1-5 mm debido a la medición manual",
+      "id": "0e4e5716-a86c-4940-a13d-116c87aa393a"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z4rNnv3kL._AC_SX466_.jpg",
+      "name": "COUGAR 700M EVO Esports 16000 DPI ratón óptico",
+      "price": "$90.00",
+      "categoria": "Diversos",
+      "description": "COUGAR 700M EVO Esports 16000 DPI ratón óptico para juegos con reposamanos ajustable, pesos y botones totalmente configurables",
+      "id": "0891f7aa-853e-49cc-a97c-f8a8e97e1517"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/5148SrUPX5L._AC_SX466_.jpg",
+      "name": "COUGAR DUALBLADER Ratón para juegos",
+      "price": "$80.00",
+      "categoria": "Diversos",
+      "description": "Diseño de dinastruta evolutiva: el nuevo ratón de doble blader icónico para juegos cuenta con un soporte de palma ergonómico y ajustable totalmente personalizable. Vale la pena mencionar que DUALBLADER está equipado con el nuevo concepto evolutivo: Dynasrut diseño (pendiente de patente). Proporciona dos despliegues (agarre de garra/palma) a través del ajuste de altura para que los jugadores elijan. Esto hace que los jugadores puedan cambiar diferentes estilos mientras juegan diferentes juegos.\nComponentes personalizados: DUALBLADER también proporciona dos juegos de agarres laterales intercambiables (grande/pequeño), cuatro botones desmontables y dos tamaños de reposamanos. Los jugadores pueden utilizar esos componentes para crear el mejor ajuste que necesitan o ajustan. Además, COUGAR soporta los archivos 3D de código abierto de los agarres laterales y botones de DUALBLADER, DIYer podría descargar estos archivos 3D y rediseñarlos para hacer una forma única por sí sola. Ofrece más posibilidades para dualblader y hace que sea divertido con el bricolaje",
+      "id": "bc872b45-f582-4cd9-82b4-9feb69d79406"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/71q2Ih1dCzL._AC_SX679_.jpg",
+      "name": "Soporte para monitor y portátil ",
+      "price": "$60.00",
+      "categoria": "Diversos",
+      "description": "Soporte para monitor y portátil con bandeja para portátil de 13 a 27 pulgadas, soporte de escritorio totalmente ajustable para portátil de hasta 17 pulgadas, peso de hasta 22 libras, extensión con abrazadera y base de montaje con ojal",
+      "id": "20a7432e-271d-4187-b56a-a64880503002"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/61SkDLmOssL._AC_SX466_.jpg",
+      "name": "Alfombrilla de mouse LED RGB para juegos,",
+      "price": "$10.00",
+      "categoria": "Selecciona la seccion",
+      "description": "EUREKA ERGONOMIC Alfombrilla de mouse LED RGB para juegos, XXL, grande, extendida, para oficina, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, alfombrilla de mouse con base de goma antideslizante, negro y verde MARRS, 31.5 x 11.8 pulgadas",
+      "id": "102e2a6e-686b-4c63-a922-49a0d000e6f3"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/612kvNOy5xL._AC_SX466_.jpg",
+      "name": "Alfombrilla de ratón para juegos, tamaño XXL,",
+      "price": "$10.00",
+      "categoria": "Selecciona la seccion",
+      "description": "Tamaño grande: el grosor de la alfombrilla de ratón es de 0.118 in para mejorar la comodidad de la muñeca. El tamaño de 31.5 x 11.8 pulgadas se adapta perfectamente a tu escritorio. Esta gran alfombrilla de ratón para juegos se adapta perfectamente a tu teclado y ratón, y también hay espacio adicional para periféricos como teléfonos y tabletas.\nBase de goma antideslizante: sombreado denso y base de goma antideslizante que proporcionan un agarre pesado que evita el deslizamiento o el movimiento de las alfombrillas de mouse, te ofrece un funcionamiento estable y te permite mover libremente tu mouse sin interrupciones, disponible para cualquier superficie plana y dura de mesa.",
+      "id": "41c776dd-ed2d-4ecd-95d8-4d33ef0c13ac"
     }
   ]
 }

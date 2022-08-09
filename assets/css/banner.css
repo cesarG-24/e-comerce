@@ -15,7 +15,7 @@
 
 
 .banner__continer-img{
-    background: url(../../img/banner.png) center / cover no-repeat;
+    background: url(../img/banner.png) center / cover no-repeat;
 }
 
 .banner__info{
@@ -67,9 +67,12 @@
 @media screen and (max-width: 360px){
 
     .banner__continer-img{
-        background: url(../../img/banner.png) center / no-repeat;
+        background: url(../img/banner.png) center no-repeat;
     }
     .banner__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height:90%;
         margin-left: 1rem ;
         width:95%;

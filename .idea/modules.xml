@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../6_Front End F2G2 - ONE/3-Sitios_interactivos-integrando_JavaScript_al_Navegador/4-JS_en_la_Web-CRUD_con_JavaScript_asíncrono /1836-CRUD_JS_Async-clase05/.idea/1836-CRUD_JS_Async-clase05.iml" filepath="$PROJECT_DIR$/../../../6_Front End F2G2 - ONE/3-Sitios_interactivos-integrando_JavaScript_al_Navegador/4-JS_en_la_Web-CRUD_con_JavaScript_asíncrono /1836-CRUD_JS_Async-clase05/.idea/1836-CRUD_JS_Async-clase05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../codigos colegas/6-ecommerce-alurageek-master/.idea/6-ecommerce-alurageek-master.iml" filepath="$PROJECT_DIR$/../codigos colegas/6-ecommerce-alurageek-master/.idea/6-ecommerce-alurageek-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/e-comerce_cesar2.iml" filepath="$PROJECT_DIR$/.idea/e-comerce_cesar2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../Dima_class/proyects/react-app1/.idea/react-app1.iml" filepath="$PROJECT_DIR$/../../../../Dima_class/proyects/react-app1/.idea/react-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../e-comerce_Alura_Latam/.idea/e-comerce_cesar2.iml" filepath="$PROJECT_DIR$/../e-comerce_Alura_Latam/.idea/e-comerce_cesar2.iml" />
     </modules>
   </component>
 </project>

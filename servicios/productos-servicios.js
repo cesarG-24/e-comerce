@@ -1,7 +1,8 @@
-const listaProductos = () =>
-    fetch('http://localhost:3000/productos').then(respuesta => respuesta.json());
+const listaProductos = () => 
+    fetch('http://localhost:3000/productos')
+        .then(respuesta => respuesta.json());
 
-const crearProducto = (imageUrl, name,  price, categoria, description) => {
+const crearProducto = (imageUrl, name, price, categoria, description) => {
     return fetch('http://localhost:3000/productos', {
         method: 'POST',
         headers: {
@@ -22,7 +23,7 @@ const crearProducto = (imageUrl, name,  price, categoria, description) => {
             }
             throw new Error('No fue posible crear un producto')
         });
-}
+};
 
 const detalleProducto = (id) => {
     return fetch(`http://localhost:3000/productos/${id}`).then((resp) => resp.json());
@@ -50,7 +51,7 @@ const updateItem = (imageUrl, name, price, categoria, description, id) => {
     })
         .then(response => response)
         .catch(error => console.error(error))
-}
+};
 
 export const productosServicios = {
     listaProductos,
@@ -58,4 +59,4 @@ export const productosServicios = {
     detalleProducto,
     updateItem,
     deleteItem,
-}
+};

@@ -1,4 +1,4 @@
-import {productosServicios} from "../servicios/productos-servicios.js"
+import {productosServicios} from "../servicios/productos-servicios.js";
 
 const form = document.querySelector('[data-form]');
 const imgUrl = document.querySelector('[data-url]');
@@ -24,7 +24,7 @@ const getInfo = async () => {
     }
 };
 
-if(id) {
+if (id) {
     getInfo();
 
     form.addEventListener('submit', (e) => {

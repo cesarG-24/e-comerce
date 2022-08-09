@@ -2,8 +2,7 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
-    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
-          rel = "stylesheet">
+    <link href ="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel = "stylesheet">
     <meta content = "width=device-width initial-scale=1.0" name = "viewport">
     <title>product__details</title>
     <link href = "/assets/css/normalize.css" rel = "stylesheet"/>
@@ -17,7 +16,7 @@
 <body>
 <header class="header__container">
     <div class="header__items">
-        <a class="header__logoHome" href = "/index.html">
+        <a class="header__logoHome" href = "../index.html">
             <img class="header__logoHome-image" src = "/assets/img/logo.svg" alt = "logo">
         </a>
         <div class="header__search">
@@ -39,12 +38,10 @@
         </div>
     </section>
 
-
     <section class="products">
-        <h2 class="product__title">Productos similares</h2>
-        <div class="product__list"> </div>
+        <h2 class="product__title">Otros  Productos</h2>
+        <div class="product__list" data-otherProducts></div>
     </section>
-
 
 </main>
 <footer>
@@ -88,6 +85,6 @@
         <p class="info__dev-text">2022</p>
     </div>
 </footer>
-<script type="module" src="/controllers/viewProduct.js"></script>
+<script type="module" src="../controllers/viewProduct.js"></script>
 </body>
 </html>

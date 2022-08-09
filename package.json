@@ -2,7 +2,7 @@
   "name": "e-comerce_alura",
   "version": "1.0.0",
   "description": "e-comerce",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "server": "json-server --watch db.json -p 3000",
     "dev": "serve ./"
@@ -25,5 +25,8 @@
   "devDependencies": {
     "json-server": "^0.17.0",
     "serve": "^14.0.1"
+  },
+  "dependencies": {
+    "serve-handler": "^6.1.3"
   }
 }

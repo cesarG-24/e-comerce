@@ -2,7 +2,6 @@ const datos = document.querySelector("#login__form");
 const login__email = document.querySelector("#login__email");
 const login__password = document.querySelector("#login__password");
 const button = document.querySelector("#login__button");
-const reg_btn = document.querySelector('#login__registrar');
 
 
 document.addEventListener("DOMContentLoaded", function() {
