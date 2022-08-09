@@ -3,8 +3,7 @@
 Challenge ONE Front-End | Creando tu proprio e-commerce.
 
 <p align="center" >
-     <img width="800" heigth="650" src="https://i.postimg.
-cc/mD3bT4F9/Captura-de-Pantalla-2022-08-09-a-la-s-5-37-09-p-m-2.png">
+     <img width="800" heigth="650" src="https://i.postimg.cc/mD3bT4F9/Captura-de-Pantalla-2022-08-09-a-la-s-5-37-09-p-m-2.png">
 </p>
 
 
