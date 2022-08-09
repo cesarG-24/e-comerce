@@ -7,7 +7,7 @@ form.addEventListener('submit',(evento) => {
     const url = document.querySelector('[data-url]').value;
     const precio = document.querySelector('[data-precio]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;
-    const categoria = document.querySelector('[data-categoria]')
+    const categoria = document.querySelector('[data-categoria]');
 
      const [selectedCategory] = [].filter
      .call(categoria.options, option => option.selected)

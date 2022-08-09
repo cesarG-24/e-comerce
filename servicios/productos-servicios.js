@@ -34,13 +34,19 @@ const deleteItem = (id) => {
     });
 };
 
-const updateItem = (name, imageUrl, price, description, id) => {
+const updateItem = (imageUrl, name, price, categoria, description, id) => {
     return fetch(`http://localhost:3000/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({name, imageUrl, price, description})
+        body: JSON.stringify({
+            imageUrl,
+            name,
+            price,
+            categoria,
+            description,
+        })
     })
         .then(response => response)
         .catch(error => console.error(error))

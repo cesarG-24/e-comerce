@@ -52,7 +52,7 @@
                     <h2 class="product__title">Star Wars</h2>
                     <a class="product__mostrar" href="screens/allProducts.html">ver todos<img src = "assets/img/productos/arow.svg" alt = "ver todos icon"></a>
                 </div>
-                <div class="product__list" data-productos> </div>
+                <div class="product__list" data-starWarsCategory> </div>
             </div>
         </section>
         <!--Consolas section -->
@@ -62,122 +62,17 @@
                     <h2 class="product__title">Consolas </h2>
                     <a class="product__mostrar">ver todos<img src = "assets/img/productos/arow.svg" alt = "ver todos icon"></a>
                 </div>
-
-                <div class="product__list">
-                    <div class="product__card" data-product="Control Xbox">
-                        <div class="imgContainer">
-                            <img class="product__card--img" src = "data:image/jpeg;base64,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" alt = "product imagen">
-                        </div>
-                        <div class="product__card--info">
-                            <p class="product__card--title">Control Xbox </p>
-                            <p class="product__card--price"> $ 60,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card" data-product="Ps5 + Control">
-                        <img class="product__card--img" src = "assets/img/productos/consolas/ps5_blue.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Ps5 + Control</p>
-                            <p class="product__card--price"> $ 1,000,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card" data-product="Nintendo">
-                        <img class="product__card--img" src = "assets/img/productos/consolas/nintendo1.png " alt = "">
-
-                        <div class="product__card--info">
-                            <p class="product__card--title">Nintendo</p>
-                            <p class="product__card--price">$ 200,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card" data-product="Controles N. Switch">
-                        <img class="product__card--img" src = "assets/img/productos/consolas/control_nintendo-switch.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Controles N. Switch</p>
-                            <p class="product__card--price"> $ 30,55</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card hidden" data-product="Xbox X Series">
-                        <img class="product__card--img" src = "assets/img/productos/consolas/xbox.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Xbox X Series</p>
-                            <p class="product__card--price">$ 700,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-                </div>
+                <div class="product__list" data-consolasCategoria></div>
             </div>
         </section>
         <!--    Diversos section  -->
         <section class="products">
             <div class="product__container">
-
                 <div class="product__header">
                     <h2 class="product__title">Diversos </h2>
                     <a class="product__mostrar">ver todos<img src = "assets/img/productos/arow.svg" alt = "ver todos icon"></a>
                 </div>
-
-                <div class="product__list">
-                    <div class="product__card">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/tshirt1.png" alt = "product imagen">
-                        <div class="product__card--info">
-                            <p class="product__card--title"> Camisa Atani </p>
-                            <p class="product__card--price"> $ 60,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/tshirt_nintendo.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Camisa SNES</p>
-                            <p class="product__card--price"> $ 60,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/sony.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title"> Muñeco de Sony</p>
-                            <p class="product__card--price">$ 40,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/radio.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Radio </p>
-                            <p class="product__card--price"> $ 20,55</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/control%20y%20consola2.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Oculus</p>
-                            <p class="product__card--price">$ 700,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-
-                    <div class="product__card hidden">
-                        <img class="product__card--img" src = "assets/img/productos/diversos/traje%20pikashu.png" alt = "">
-                        <div class="product__card--info">
-                            <p class="product__card--title">Traje de pikashu</p>
-                            <p class="product__card--price">$ 120,00</p>
-                           <a href = "screens/product-details/"><button class="product__card-boton">Ver producto</button></a>
-                        </div>
-                    </div>
-                </div>
+                <div class="product__list" data-diversosCategoria></div>
             </div>
         </section>
     </main>

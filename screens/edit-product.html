@@ -41,11 +41,11 @@
             <input class = "new__product-input" data-url placeholder = "url imagen" required type = "text">
             <input class = "new__product-input" data-nombre placeholder = "Nombre del producto" required type = "text">
             <input class = "new__product-input" data-precio placeholder = "Precio producto" required type = "text">
-            <select class="form-selection "  required data-categoria multiple>
-                <option value="" disabled selected> Selecciona la seccion </option>
-                <option value="1" data-starWar>StarWars</option>
-                <option value="2" data-consolas>Consolas</option>
-                <option value="3" data-diversos>Diversos</option>
+            <select class = "form-selection " data-categoria multiple required>
+                <option disabled selected value = ""> Selecciona la seccion</option>
+                <option data-starWar value = "StarWars">StarWars</option>
+                <option data-consolas value = "Consolas">Consolas</option>
+                <option data-diversos value = "Diversos">Diversos</option>
             </select>
             <textarea class=" new__product-input form-description" placeholder="Descripcion del producto" required
                       data-descripcion></textarea>
