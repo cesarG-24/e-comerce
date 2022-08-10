@@ -1,29 +1,30 @@
-.login__container{
+.login__container {
     background-color: #E5E5E5;
     align-items: center;
     justify-content: center;
     height: 53vh;
 }
-.login__form{
+
+.login__form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.login__title{
+.login__title {
     font-family: var(--fuente_principal);
     color: var(--color_letras-H2);
     font-weight: 700;
     font-size: 35px;
-    margin-top: 100px  ;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
-.login__email{
+.login__email {
     background-color: #FFFFFF;
     width: 400px;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 3px 3px 0px var(--color_placeholder);
     color: #000000;;
@@ -31,29 +32,31 @@
     margin: 10px auto;
 
 }
-.login__email:hover{
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+
+.login__email:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
 
 
-.login__password{
+.login__password {
     background-color: #FFFFFF;
     width: 400px;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 3px 3px 0px var(--color_placeholder);
-    color: rgba(36,57,85,0.11);
+    color: rgba(36, 57, 85, 0.11);
     border: none;
     margin: 10px auto;
     color: #000000;
 }
-.login__password:hover{
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+
+.login__password:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
 
-::placeholder{
+::placeholder {
     color: var(--color_placeholder);
 }
 
@@ -61,10 +64,11 @@
     outline: none;
 }
 
-.loginBtn{
+.loginBtn {
     margin: 5px auto;
 }
-.registrar{
+
+.registrar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,42 +76,44 @@
     margin: 5px auto;
 }
 
-.login__button:active{
+.login__button:active {
     box-shadow: var(--boton-active);
     transform: scale(0.9);
 }
-.login__button:hover{
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+
+.login__button:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
 
-.login__button{
+.login__button {
     background-color: var(--color_fondo-o-letra_botones-2);
     color: #FFFFFF;
     width: 400px;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 3px 3px 0px var(--color_placeholder);
     border: none;
     cursor: pointer;
 }
 
-.login__message-error{
+.login__message-error {
     display: none;
     color: #FF0004;
     font-size: 10px;
 }
 
 
+@media screen and (max-width: 768px) {
+    .login__email {
+        max-width: 200px;
+    }
 
-@media screen and (max-width: 768px){
-    .login__email{
-        max-width: 200px ;
+    .login__password {
+        max-width: 200px;
     }
-    .login__password{
-        max-width: 200px ;
-    }
-    .login__button{
-        max-width: 200px ;
+
+    .login__button {
+        max-width: 200px;
     }
 }

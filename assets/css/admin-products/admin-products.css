@@ -1,9 +1,9 @@
-.admin-products{
+.admin-products {
     background-color: var(--color-fondo-grisclaro);
 }
 
 
-.agregar-producto{
+.agregar-producto {
     padding: 16px;
     background-color: var(--color_fondo-o-letra_botones-2);
     color: #FFFFFF;
@@ -11,17 +11,18 @@
     margin-top: 0.3rem;
     cursor: pointer;
 }
-.agregar-producto:hover{
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+
+.agregar-producto:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
 
-.agregar-producto:active{
-    box-shadow: inset 0 0 30px 8px rgba(22,26,45,0.11) , 0 0 5px 1px #000000;
+.agregar-producto:active {
+    box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
     transform: scale(0.99);
 }
 
-.product__card--code{
+.product__card--code {
     font-size: 14px;
     font-weight: 500;
     font-family: var(--fuente_principal);
@@ -218,7 +219,7 @@
 }
 
 .product__card:hover {
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
     cursor: pointer;
 }

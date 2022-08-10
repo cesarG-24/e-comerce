@@ -16,7 +16,7 @@
 <body>
 <header class = "header__container">
     <div class = "header__items">
-        <a class = "header__logoHome" href = "../index.html">
+        <a class = "header__logoHome" href = "../index">
             <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
         </a>
         <div class = "header__search">
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <a class = "header__login" href = "adminProducts.html">
+    <a class = "header__login" href = "adminProducts">
         <button class = "header__login-button">Menú Administrador</button>
     </a>
 </header>
@@ -47,8 +47,8 @@
                 <option data-consolas value = "Consolas">Consolas</option>
                 <option data-diversos value = "Diversos">Diversos</option>
             </select>
-            <textarea class=" new__product-input form-description" placeholder="Descripcion del producto" required
-                      data-descripcion></textarea>
+            <textarea class = " new__product-input form-description" data-descripcion placeholder = "Descripcion del producto"
+                      required></textarea>
             <button class = "new__product-button">Enviar</button>
         </form>
     </section>
@@ -78,8 +78,12 @@
             <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
             <label class = "contacto__contactar-nombre contacto__textBox">
                 Nombre
-                <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
-                       required type = "text">
+                <input class = "contacto__contactar-nombreInput"
+                       id = "contact__nombre"
+                       name = "nombre"
+                       placeholder = "Pedro Santana"
+                       required
+                       type = "text">
             </label>
             <label class = "contacto__mensaje contacto__textBox">
                 Escribe tu mensaje<textarea class = "contacto__mensaje-text"

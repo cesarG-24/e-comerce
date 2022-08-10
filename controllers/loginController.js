@@ -9,10 +9,10 @@ form.addEventListener('submit', async (e) => {
 
     const user = await validate()
 
-    if(user) {
+    if (user) {
         console.log('we have this user in the database')
-       
-        window.location.href = '../screens/adminProducts.html'
+
+        window.location.href = '../screens/adminProducts'
     } else {
         console.log('email or password - wrong or user not found')
         swal.fire({
@@ -24,17 +24,17 @@ form.addEventListener('submit', async (e) => {
     }
 })
 
-async  function getUsers () {
+async function getUsers() {
     const response = await fetch('http://localhost:3000/users')
     return await response.json();
 }
 
-async function validate  () {
+async function validate() {
     const users = await getUsers()
 
     console.log({users})
-    
-    const found =  users.find((user) => user.email === mail.value && user.password === pass.value);
+
+    const found = users.find((user) => user.email === mail.value && user.password === pass.value);
 
     console.log({found})
 

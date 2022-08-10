@@ -2,7 +2,8 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8">
-    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap" rel = "stylesheet">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
     <meta content = "width=device-width initial-scale=1.0" name = "viewport">
     <title> Edit Usuario</title>
     <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
@@ -15,7 +16,7 @@
 <body>
 <header class = "header__container">
     <div class = "header__items">
-        <a class = "header__logoHome" href = "../index.html">
+        <a class = "header__logoHome" href = "../index">
             <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
         </a>
         <div class = "header__search">
@@ -29,7 +30,7 @@
         </div>
     </div>
 
-    <a class = "header__login" href = "adminProducts.html">
+    <a class = "header__login" href = "adminProducts">
         <button class = "header__login-button">Menú Administrador</button>
     </a>
 </header>
@@ -37,7 +38,7 @@
     <section class = "new__product">
         <form class = "form_container" data-form>
             <h2 class = "new__product-title">Editar
-            Usuario</h2>
+                                             Usuario</h2>
             <input class = "new__product-input" data-nombre placeholder = "nombre" required type = "text">
             <input class = "new__product-input" data-email placeholder = "Email" required type = "text">
             <input class = "new__product-input" data-password placeholder = "password" required type = "text">
@@ -70,8 +71,12 @@
             <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
             <label class = "contacto__contactar-nombre contacto__textBox">
                 Nombre
-                <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
-                       required type = "text">
+                <input class = "contacto__contactar-nombreInput"
+                       id = "contact__nombre"
+                       name = "nombre"
+                       placeholder = "Pedro Santana"
+                       required
+                       type = "text">
             </label>
             <label class = "contacto__mensaje contacto__textBox">
                 Escribe tu mensaje<textarea class = "contacto__mensaje-text"

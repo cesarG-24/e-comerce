@@ -5,37 +5,33 @@ const imgProduct = document.querySelector('[data-img]');
 const nameProduct = document.querySelector('[data-name]');
 const priceProduct = document.querySelector('[data-price]');
 const descProduct = document.querySelector('[data-descripcion]');
-// const verProducto = document.querySelector('[data-verProducto]');
 
 const url = new URL(window.location);
 const id = url.searchParams.get('id');
 
 const getInfo = async (id) => {
     try {
-        const getProduct = await productosServicios.detalleProducto(id);
-        product(getProduct);
-        console.log(product.imageUrl, product.name, product.price, product.categoria, product.description, id);
+        const product = await productosServicios.detalleProducto(id);
+
+        imgProduct.src = product.imageUrl;
+        nameProduct.textContent = product.name;
+        priceProduct.textContent = `precio: ${product.price}`;
+        descProduct.textContent = `Descripción del producto: ${product.description}`;
+
+        console.log({product, id});
+
+        const products = await productosServicios.listaProductos();
+        const allProducts = document.querySelector('[data-products]');
+
+        allProducts.innerHTML = '';
+        products.filter(p => p.categoria === product.categoria).forEach(elemento => {
+            allProducts.appendChild((nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id)));
+        })
     } catch (error) {
         console.error("Hubo un Error", error);
     }
 };
 
-const product = ({imageUrl, name,  price, description})=>{
-    imgProduct.src = imageUrl;
-    nameProduct.textContent = name;
-    priceProduct.textContent = `precio: ${price}`;
-    descProduct.textContent = `Descripción del producto: ${description}`;
-}
-
-if(id){
+if (id) {
     getInfo(id);
 }
-
-const products = await productosServicios.listaProductos();
-const otherProducts = document.querySelector('[data-otherProducts]');
-
-
-otherProducts.innerHTML = '';
-products.forEach(elemento => { otherProducts.appendChild((nuevoProducto(elemento.name, elemento.price, elemento.imageUrl, elemento.id)));
-})
-

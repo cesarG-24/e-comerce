@@ -1,24 +1,25 @@
-.banner{
+.banner {
     width: 100%;
     overflow: hidden;
 }
 
-.banner__continer{
+.banner__continer {
     width: auto;
     display: flex;
     flex-wrap: nowrap;
 }
-.banner__continer-show{
+
+.banner__continer-show {
     width: 100%;
     height: 350px;
 }
 
 
-.banner__continer-img{
+.banner__continer-img {
     background: url(../img/banner.png) center / cover no-repeat;
 }
 
-.banner__info{
+.banner__info {
     height: calc(100% - 100px);
     width: 80%;
     padding: 50px 50px 50px 80px;
@@ -28,14 +29,14 @@
     transition: all 300ms;
 }
 
-.banner__info-title{
+.banner__info-title {
     font-family: Raleway, sans-serif;
     font-size: 52px;
     font-weight: 700;
     color: #fdfdfd;
 }
 
-.banner__info-description{
+.banner__info-description {
     font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -43,7 +44,7 @@
     margin-bottom: 16px;
 }
 
-.banner__button{
+.banner__button {
     border: none;
     outline: none;
     background-color: var(--color_fondo-o-letra_botones-2);
@@ -53,37 +54,41 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.banner__button:hover{
-    box-shadow: 10px 5px 10px 5px rgba(22,26,45,0.11);
+
+.banner__button:hover {
+    box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
 
-.banner__button:active{
-    box-shadow: inset 0 0 30px 8px rgba(22,26,45,0.11) , 0 0 5px 1px #000000;
+.banner__button:active {
+    box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
     transform: scale(0.99);
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
 
-    .banner__continer-img{
+    .banner__continer-img {
         background: url(../img/banner.png) center no-repeat;
     }
+
     .banner__info {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height:90%;
-        margin-left: 1rem ;
-        width:95%;
-        padding:0;
+        height: 90%;
+        margin-left: 1rem;
+        width: 95%;
+        padding: 0;
         transition: all 300ms;
     }
-    .banner__info-title{
+
+    .banner__info-title {
         font-size: 32px;
         margin-bottom: 8px;
     }
-    .banner__info-description{
+
+    .banner__info-description {
         font-size: 16px;
     }
 

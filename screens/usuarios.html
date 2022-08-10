@@ -21,7 +21,7 @@
 <body>
 <header class = "header__container">
     <div class = "header__items">
-        <a class = "header__logoHome" href = "../index.html">
+        <a class = "header__logoHome" href = "../index">
             <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
         </a>
         <div class = "header__search">
@@ -35,8 +35,8 @@
         </div>
     </div>
 
-    <a class = "header__login-button"  href = "adminProducts.html">
-      Menú Administrador
+    <a class = "header__login-button" href = "adminProducts">
+        Menú Administrador
     </a>
 </header>
 
@@ -49,7 +49,7 @@
             <th class = "table__column--g">Email</th>
             <th class = "table__column--g">Password</th>
             <th class = "table__column--m table__align--right">
-                <a class = "simple-button simple-button--add" href = "new-usuario.html">Nuevo usuario</a>
+                <a class = "simple-button simple-button--add" href = "new-usuario">Nuevo usuario</a>
             </th>
         </tr>
         </thead>
@@ -84,8 +84,12 @@
 
             <label class = "contacto__contactar-nombre contacto__textBox">
                 Nombre
-                <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
-                       required type = "text">
+                <input class = "contacto__contactar-nombreInput"
+                       id = "contact__nombre"
+                       name = "nombre"
+                       placeholder = "Pedro Santana"
+                       required
+                       type = "text">
             </label>
 
             <label class = "contacto__mensaje contacto__textBox">
@@ -101,7 +105,7 @@
         <p class = "info__dev-text">2022</p>
     </div>
 </footer>
-<script type = "module" src = "../controllers/usuarioController.js" ></script>
+<script src = "../controllers/usuarioController.js" type = "module"></script>
 <script src = "../controllers/form-validation.js"></script>
 <script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

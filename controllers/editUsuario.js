@@ -26,7 +26,7 @@ if (id) {
         e.preventDefault();
         userServicios.updateUsuario(nombre.value, email.value, password.value, id).then(() => {
             alert('Producto editado con exito')
-            window.location.href = '../screens/usuarios.html'
+            window.location.href = '../screens/usuarios'
         })
     })
 } else {

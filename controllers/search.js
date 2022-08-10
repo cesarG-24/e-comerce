@@ -11,15 +11,15 @@ setInterval(() => {
 }, 1000 / 5);
 
 const update = () => {
- const value = search.value.toLowerCase();
+    const value = search.value.toLowerCase();
 
- for (const product of products) {
-     const name = (product.getAttribute('data-product') || '').toLowerCase().trim();
+    for (const product of products) {
+        const name = (product.getAttribute('data-product') || '').toLowerCase().trim();
 
-     console.log('Search value and product', {value, name})
+        console.log('Search value and product', {value, name})
 
-     product.style.display = !value || !name || name.includes(value) ? 'flex' : 'none';
- }
+        product.style.display = !value || !name || name.includes(value) ? 'flex' : 'none';
+    }
 };
 
 search.addEventListener('input', update);

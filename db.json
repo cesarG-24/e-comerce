@@ -1,28 +1,16 @@
 {
   "users": [
     {
-      "name": "aasdffghjk",
-      "email": "ddima@dima.dima",
-      "password": "1234",
-      "id": "b2c8522e-51ff-4565-9b29-ee1dc20b4bc5"
-    },
-    {
-      "name": "sasha",
-      "email": "sasha@a.a",
-      "password": "sasha",
-      "id": "f5000949-d6d2-47c7-bbb4-86fb29531a5b"
-    },
-    {
-      "name": "cesar",
-      "email": "cesar@cesar.co",
-      "password": "1234",
-      "id": "4a945099-3d53-4774-aeb7-ed0cb25949bc"
-    },
-    {
-      "name": "dima",
-      "email": "ddima@dima.dima",
+      "name": "test",
+      "email": "test@test.test",
       "password": "123",
-      "id": "e3e34da0-b2c2-4d16-8722-bcd52ff27b91"
+      "id": "e330000b-cadd-4a35-911f-c08d8eb4520d"
+    },
+    {
+      "name": "cq",
+      "email": "cc@c.C",
+      "password": "c",
+      "id": "beb63de4-60e3-49a9-8c0d-fcb20430cb50"
     }
   ],
   "categories": [
@@ -75,7 +63,7 @@
     {
       "imageUrl": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/vanguard/comics/arthur/VANGUARD_01_layout_FINAL24.jpg",
       "name": "Call of Duty®: Vanguard ",
-      "price": "$60.00",
+      "price": "$70",
       "categoria": "Consolas",
       "description": "La galardonada saga de Call of Duty® vuelve con Call of Duty®: Vanguard, donde los jugadores experimentarán influyentes batallas de la Segunda Guerra Mundial mientras luchan por la victoria en los frentes oriental y occidental de Europa, el Pacífico y el Norte de África.",
       "id": "6ae6f0b1-c194-4c7c-a08f-7b6460d3ff88"

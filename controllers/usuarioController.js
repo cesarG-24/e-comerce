@@ -1,6 +1,6 @@
 import {userServicios} from "../servicios/user-service.js";
 
-const nuevoUsuario = (name, email, password,id) => {
+const nuevoUsuario = (name, email, password, id) => {
     const addUser = document.createElement("tr");
     addUser.innerHTML = `
         <td class="td">${name}</td>
@@ -9,7 +9,7 @@ const nuevoUsuario = (name, email, password,id) => {
         <td>
           <ul class="table__button-control">
             <li>
-              <a href="../screens/edit-usuario.html?id=${id}" class="simple-button simple-button--edit btn" data-editUser>
+              <a href="../screens/edit-usuario?id=${id}" class="simple-button simple-button--edit btn" data-editUser>
                 Editar
               </a>
             </li>
@@ -40,14 +40,14 @@ const user = document.querySelector('[data-table]');
 
 const render = async () => {
     try {
-        const listaUsuarios = await  userServicios.listaUsuarios()
-        if(user){
+        const listaUsuarios = await userServicios.listaUsuarios()
+        if (user) {
             user.innerHTML = '';
             listaUsuarios.forEach((elemento) => {
-                user.appendChild(nuevoUsuario(elemento.name,elemento.email,elemento.password, elemento.id))
+                user.appendChild(nuevoUsuario(elemento.name, elemento.email, elemento.password, elemento.id))
             });
         }
-    } catch (error){
+    } catch (error) {
         console.error('Hubo un error', error)
     }
 }

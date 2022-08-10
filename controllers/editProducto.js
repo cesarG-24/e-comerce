@@ -32,7 +32,7 @@ if (id) {
 
         productosServicios.updateItem(imgUrl.value, nombre.value, precio.value, categoria.value, descripcion.value, id).then(() => {
             alert('Producto editado con exito')
-            window.location.href = '../screens/adminProducts.html'
+            window.location.href = '../screens/adminProducts'
         })
     })
 } else {

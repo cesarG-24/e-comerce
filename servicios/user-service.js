@@ -1,4 +1,4 @@
-const listaUsuarios = () => 
+const listaUsuarios = () =>
     fetch('http://localhost:3000/users').then(respuesta => respuesta.json());
 
 const crearUsuario = (name, email, password) => {
@@ -15,14 +15,14 @@ const crearUsuario = (name, email, password) => {
         })
     })
         .then(respuesta => {
-            if(respuesta.ok){
+            if (respuesta.ok) {
                 return respuesta.body
             }
             throw new Error('No fue posible crear un usuario')
         });
 };
 
-const detalleUsuario= (id) => {
+const detalleUsuario = (id) => {
     return fetch(`http://localhost:3000/users/${id}`).then((resp) => resp.json());
 };
 
@@ -48,7 +48,7 @@ const updateUsuario = (name, email, password, id) => {
         .catch(error => console.error(error))
 };
 
- export const userServicios = {
+export const userServicios = {
     listaUsuarios,
     crearUsuario,
     deleteUser,
