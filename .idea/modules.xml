@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../e-comerce_Alura_Latam/.idea/e-comerce_cesar2.iml" filepath="$PROJECT_DIR$/../e-comerce_Alura_Latam/.idea/e-comerce_cesar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/e-comerce_cesar2.iml" filepath="$PROJECT_DIR$/.idea/e-comerce_cesar2.iml" />
     </modules>
   </component>
 </project>
