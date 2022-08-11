@@ -11,6 +11,18 @@
       "email": "cc@c.C",
       "password": "c",
       "id": "beb63de4-60e3-49a9-8c0d-fcb20430cb50"
+    },
+    {
+      "name": "1",
+      "email": "cesar@gmail.com",
+      "password": "123",
+      "id": "d336f49d-c9f2-49ff-91fe-804b38fe4694"
+    },
+    {
+      "name": "tati",
+      "email": "tatiana27ocean@gmail.com",
+      "password": "1234",
+      "id": "cdbd2176-5eed-4e5e-871b-8b9c02d74cb0"
     }
   ],
   "categories": [
@@ -43,14 +55,6 @@
       "categoria": "StarWars",
       "description": "Darth Vader (Tatooine, 41 ABY - Estrella de la Muerte, 4 DBY), también conocido por su nombre de nacimiento Anakin Skywalker, es un personaje de ficción en la franquicia de Star Wars. Vader aparece en la trilogía original como un antagonista cuyas acciones dirigen la trama, mientras que su pasado como Anakin Skywalker y la historia de su corrupción por Darth Sidious y su paso al Lado Oscuro son centrales en la narrativa de la trilogía de la precuela.  El personaje fue creado por George Lucas y ha sido retratado por numerosos actores. Sus apariciones abarcan las primeras seis películas de Star Wars, así como Rogue One, y su personaje está fuertemente referenciado en Star Wars: Episodio VII - El despertar de la Fuerza. También es un personaje importante en el universo expandido de Star Wars de series de televisión, videojuegos, novelas, literatura y cómics. Darth Vader se ha convertido en uno de los villanos más emblemáticos de la cultura popular, y ha figurado entre los más grandes villanos y personajes ficticios de la historia.2​3​  Vader a pesar de ser de una maldad tan pura, aún conserva sus sentimientos a su fallecido esposa Padme Amidala, cómo después a su hijo Luke. También tiene una extraña y desconocida obsesión por el orden y en menor medida la justicia en la galaxia sea por intenciónes benévolas o lo contrario. Al principio de llevar portar su armadura biónica odiaba su personalidad de Darth Vader tanto como la armadura propia hasta el punto de dudar si había elegido un camino correcto, aunque después unos cinco años después de la fundación del Imperio Galáctico acepta la retorcida ideología del lado oscuro de La Fuerza hasta el punto de aceptar su armadura y purgar casi todo lo que quedaba de su luz interior.",
       "id": "9eaa1a1e-8628-4cbf-a3a3-6d2d0b3e1c9e"
-    },
-    {
-      "imageUrl": "https://i.pinimg.com/564x/81/e8/ae/81e8ae6c72e8cbfc544d9fddb664ca3b.jpg",
-      "name": "ART, Mini Stormtrooper",
-      "price": "$75.00",
-      "categoria": "StarWars",
-      "description": "Los Stormtroopers son presentados dentro del universo Star Wars, provistos de una armadura metálica de color blanco que les cubre por completo. Están encargados de mantener el orden en la galaxia.  Hay diversas variaciones de esta infantería que depende del lugar, clima y otros factores. Las más importantes son:  Scout Troppers o Soldados exploradores: especializados en todos los terrenos y cuyo objetivo es la vigilancia y exploración. Se les puede apreciar en la entrega Return of the Jedi. Shoretroopers o Soldados costeros: su especialidad eran los terrenos costeros. Se les ve por primera ocasión en Rogue One. Sandtroopers o Soldados de arena: su especialidad son los terrenos áridos, normalmente desiertos. Aparecen en A New Hope. Snowtroopers o Soldados de nieve: su especialidad son los terrenos fríos, normalmente nevados o congelados. Su primera aparición fue en The Empire Strikes Back. Soldados espaciales o Soldados G-Cero: su especialidad es el abordaje y la captura de naves interestelares enemigas. Soldados oscuros: son droides especiales y su especialidad es la defensa de instalaciones imperiales. Blackhole Stormtroopers o Soldado de asalto sombra: escuadrón de élite de tropas de asalto imperiales, su especialidad es el camuflaje. Piloto de caza TIE: especializados en el pilotaje de cazas tales como los caza TIE. Guardia Real del Emperador: soldados de élite que forman parte de la guardia personal del Emperador Palpatine. Tiene sus propias órdenes y ramificaciones. Las tropas imperiales son el legado más visible de la Antigua República, que tuvo una vez un ejército de soldados clones creados en el planeta Kamino. Estos clones con el tiempo se fueron mezclando con nuevos soldados no clones y terminaron siendo las tropas Imperiales. A pesar de que los Stormtroopers son las tropas principales del Imperio Galáctico y más adelante de la Primera Orden a lo largo de la saga, muchos fanáticos de la franquicia y de la cultura popular en general, han catalogado a estos soldados con la peor reputación y por ser soldados bastante incompetentes si se les compara contra sus predecesores los soldados clones, especialmente por el tema de su puntería al momento de usar sus blasters.",
-      "id": "5e0a052c-9a55-47ca-abf4-584246252fdb"
     },
     {
       "imageUrl": "https://i.pinimg.com/736x/54/9f/a6/549fa61cfa4ee1d2abfb133dd2ad6c01.jpg",
@@ -87,7 +91,7 @@
     {
       "imageUrl": "https://bufallo.uy/wp-content/uploads/2020/11/LqsksvzfE8X2tNAosapGwh.jpg",
       "name": "AirPods Pro by Apple",
-      "price": "$249.99",
+      "price": "$289. En 0",
       "categoria": "Diversos",
       "description": "Tecnología de audio\nControlador de alta excursión diseñado por Apple\nAmplificador exclusivo con alto rango dinámico\nCancelación Activa de Ruido\nModo Ambiente\nEcualización de presión mediante un sistema de ventilación\nAudio espacial con seguimiento dinámico del movimiento de la cabeza1\nEcualización Adaptativa\nSensores\nDos micrófonos con tecnología beamforming\nMicrófono orientado hacia adentro\nDos sensores ópticos\nAcelerómetro con detección de movimiento\nAcelerómetro con detección de voz\nSensor de fuerza\nChip\nChip H1 para audífonos\n\nControles\nPresiona una vez para reproducir, pausar o contestar una llamada\nPresiona dos veces para avanzar\nPresiona tres veces para retroceder\nMantén presionado para cambiar entre Cancelación Activa de Ruido y modo Ambiente",
       "id": "bf69cef6-8af8-44b7-8cdb-bfa30b8d1b5d"

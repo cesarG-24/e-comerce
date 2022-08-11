@@ -1,9 +1,9 @@
 const listaProductos = () =>
-    fetch('http://localhost:3000/productos')
+    fetch('https://ds-json.herokuapp.com/productos')
         .then(respuesta => respuesta.json());
 
 const crearProducto = (imageUrl, name, price, categoria, description) => {
-    return fetch('http://localhost:3000/productos', {
+    return fetch('https://ds-json.herokuapp.com/productos', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -26,17 +26,17 @@ const crearProducto = (imageUrl, name, price, categoria, description) => {
 };
 
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`).then((resp) => resp.json());
+    return fetch(`https://ds-json.herokuapp.com/productos/${id}`).then((resp) => resp.json());
 };
 
 const deleteItem = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://ds-json.herokuapp.com/productos/${id}`, {
         method: 'DELETE',
     });
 };
 
 const updateItem = (imageUrl, name, price, categoria, description, id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://ds-json.herokuapp.com/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
