@@ -25,7 +25,7 @@ form.addEventListener('submit', async (e) => {
 })
 
 async function getUsers() {
-    const response = await fetch('http://localhost:3000/users')
+    const response = await fetch('https://ds-json.herokuapp.com/users/')
     return await response.json();
 }
 
