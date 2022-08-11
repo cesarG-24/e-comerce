@@ -9,7 +9,7 @@ Challenge ONE Front-End | Creando tu proprio e-commerce.
 ### ¡Bienvenido al proyecto base del e-comerce_Alura!
 
 <p align="center"> 
-   <img width="100" heigth="100" src="https://i.postimg.cc/SN5S5cF2/cms-files-10224-1644515319-BADGE-2.png"><img width="100" heigth="100" src="https://i.postimg.cc/Pfw2YjXg/cms-files-10224-1644516322badge.png"> <img width="100" heigth="100" src="https://i.postimg.cc/7LPTPghH/cms-files-10224-1645571154-Insignia-3.png"><img width="100" heigth="100" src="https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F10224%2F1659458999Badge_Geek_Alura_ChallengeOracleONE_2000x2000.png?utm_campaign=alura_latam_-_challenge_email_projeto_4_esp&utm_medium=email&utm_source=RD+Station">  
+   <img width="100" heigth="100" src="https://i.postimg.cc/SN5S5cF2/cms-files-10224-1644515319-BADGE-2.png"><img width="100" heigth="100" src="https://i.postimg.cc/Pfw2YjXg/cms-files-10224-1644516322badge.png"> <img width="100" heigth="100" src="https://i.postimg.cc/7LPTPghH/cms-files-10224-1645571154-Insignia-3.png"><img width="100" heigth="100" src="https://i.postimg.cc/5ytS2ZWs/cms-files-10224-1659458999-Badge-Geek-Alura-Challenge-Oracle-ONE-2000x2000.png">  
 </p>
 
 ###
